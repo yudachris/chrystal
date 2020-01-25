@@ -1,0 +1,23 @@
+{
+  "name": "chrystal",
+  "version": "1.0.0",
+  "description": "Chrystal CSS Library",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/chrystal.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudachris/chrystal.git"
+  },
+  "author": "Yehuda Nathanael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yudachris/chrystal/issues"
+  },
+  "homepage": "https://github.com/yudachris/chrystal#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

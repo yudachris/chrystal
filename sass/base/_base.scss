@@ -1,0 +1,32 @@
+/*
+Chrystal CSS Library
+
+by Yehuda C. Nathanael　(ナタナエル) ©2020
+started on 23rd January 2020
+*/
+
+*,
+*::before,
+*::after {
+        margin:0;
+	    box-sizing:inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size:1.6rem;
+	box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+div.container {
+	width:80%;
+	margin:auto;
+}
+
+.header {
+	padding:8rem;
+}

@@ -1,0 +1,92 @@
+.btn{
+    &,
+    &:link,
+    &:visited {
+        font-family: inherit;
+        font-size: 1.3rem;
+        text-decoration:none;
+        border-radius: .3rem;
+        padding: .5rem 1rem;
+        margin: 1rem;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active{
+        outline: none;
+    }
+}
+
+.btn-animated {
+	transition: all .2s;
+	box-shadow: .2rem .2rem .5rem rgba(0,0,0, .8);
+}
+
+.btn-bsc {
+	background-color:#FFF;
+	color:#333;
+	border: 1px solid #333;
+}
+
+.btn-blue {
+	background: linear-gradient(to right bottom, $color-blue, $color-blue-dark);
+	color:#FFF;
+	border: 1px solid #333;
+}
+
+.btn-green {
+	background-color:green;
+	color:#FFF;
+	border: 1px solid #333;
+}
+
+.btn-yellow {
+	background-color:yellow;
+	color:#333;
+	border: 1px solid #333;
+}
+
+.btn-red {
+	background-color:red;
+	color:#FFF;
+	border: 1px solid #333;
+}
+
+.btn-bsc:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.btn-blue:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.btn-green:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.btn-yellow:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.btn-red:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.btn-animated:hover{
+	transform: translateY(-.4rem);
+	box-shadow: .3rem .3rem .7rem rgba(0,0,0, .8);
+}
+
+.btn-animated:active{
+	transform: translateY(0);
+	box-shadow: .2rem .2rem .5rem rgba(0,0,0, .8);
+}
