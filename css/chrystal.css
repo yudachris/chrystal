@@ -219,3 +219,12 @@ div.container {
 .u-margin-bottom-sm { margin-bottom: .5rem; }
 .u-margin-bottom-md { margin-bottom: 1.5rem; }
 .u-margin-bottom-lg { margin-bottom: 3rem; }
+
+.u-display-none { display:none; }
+
+.u-absolute-center { 
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
